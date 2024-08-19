@@ -1,0 +1,57 @@
+/*  */
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+
+body {    
+    background: linear-gradient(-100deg, #11c1c7, #0d462a );
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 99vh;
+    border: 2px solid rgb(255, 47, 0);
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(200deg, #11c1c7, #0d462a );
+    border-radius: 10px;
+    width: 50%;
+}
+
+h1 {
+    padding: 24px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    border-bottom: 1px solid #dcdcdc;
+    
+}
+
+form {
+    padding: 24px;
+    display: flex; /* coloca elementos lado a lado */
+    align-items: start; /* Alinha elementos acima à esquerda */
+    flex-wrap: wrap; /* Organiza elementos para caber dentro do container, que neste caso é a form-box */
+}
+
+form input,
+form textarea {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 24px;    
+}
+
+form textarea {
+    height: 180px;
+}
+
